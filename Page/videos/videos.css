@@ -1,0 +1,15 @@
+.video{
+    display: flex;
+}
+@media (max-width:580px){
+    .video{
+        display: block;
+    }
+}
+@media (max-width:360px){
+    ol li:nth-child(1){
+        a{
+            font-size: small;
+        }
+    }
+}
